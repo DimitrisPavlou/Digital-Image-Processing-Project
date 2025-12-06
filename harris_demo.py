@@ -7,7 +7,7 @@ import cv2
 
 """Run Harris corner detection on an image."""
 # Load and preprocess image
-filename = "im2.jpg"
+filename = "test_image.jpg"
 img = Image.open(filename)
 bw_image = img.convert("L")
 gray_image = np.array(bw_image)
@@ -43,3 +43,4 @@ plt.axis("off")
 
 plt.tight_layout()
 plt.show()
+
