@@ -1,6 +1,6 @@
 ## 📸 Project Overview
 
-This project implements a collection of **classic Digital Image Processing algorithms** that are fundamental in computer vision and feature extraction tasks.  
+This project implements a collection of **classic Digital Image Processing algorithms** that are fundamental in computer vision and feature extraction tasks.
 
 ---
 
@@ -18,10 +18,23 @@ This project implements a collection of **classic Digital Image Processing algor
    - Rotates an image by a specified angle while preserving geometry  
    - Demonstrates geometric transformation techniques  
 
+4. **Histogram Equalization**  
+   - Enhances image contrast through intensity redistribution  
+   - Includes:
+     - **Global Histogram Equalization**
+     - **Adaptive Histogram Equalization**
+
+5. **Image Filtering**  
+   - Implements frequency-domain restoration techniques  
+   - Includes:
+     - **Inverse Filtering**
+     - **Wiener Filtering**
+
 ---
 
 ## ✨ Key Features
 
-- Clean and modular implementations of classical algorithms  
+- Clean and modular implementations of classical image processing algorithms  
+- Separate modules for feature detection, geometric transformations, enhancement, and restoration  
 - Useful for learning, experimentation, or as building blocks for more advanced computer vision systems  
 - Provides visual results for better understanding of algorithm behavior  
